@@ -1,21 +1,18 @@
 body {
-    font-family: "Roboto", "Helvetica", "Arial" sans-serif;
-    font-size: 56px;
-    font-weight: 700;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     letter-spacing: 0.02em;
-    line-height: 1.07;
+    line-height: 1.5;
     color: #434455;
+
 }
 
 .logo {
     font-family: Raleway, sans-serif;
-    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     vertical-align: middle;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .logo {
@@ -31,19 +28,25 @@ body {
     color: #FFFFFF;
 }
 
-.nav > ul > li {
-    background-color: #E7E9FC;
+.header a {
+    text-decoration: none;
 }
 
+.nav a:hover:hover,
+.nav a:hover:focus {
+  color: #404BBF;
+}
+
+
 .nav-link {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
+
 .nav-contact {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -61,7 +64,6 @@ h1 {
 
 .button {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -74,13 +76,11 @@ h1 {
 .text {
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 h2 {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -88,16 +88,12 @@ h2 {
 }
 
 .h3 {
-    font-weight: 500;
     font-style: Medium;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 2%;
 }
 
-.header {
-    background-color: #E7E9FC;
-}
 
 .footer {
     background-color: #2E2F42;
@@ -117,4 +113,13 @@ h2 {
 
 .team h3:hover {
     color: blue;
+}
+
+.ul > li {
+    list-style: none;
+}
+
+
+.button:hover {
+    background-color: #404BBF;
 }
