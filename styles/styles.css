@@ -50,7 +50,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2E2F42;
+    list-style: none;
+}
 
+.nav-contact a:hover {
+    color: #404BBF;
 }
 
 h1 {
@@ -107,6 +112,10 @@ h2 {
     background-color: #2E2F42;
 }
 
+.team {
+    background-color: #F4F4FD;
+}
+
 .team h3 {
     color: #434455;
 }
@@ -122,4 +131,9 @@ h2 {
 
 .button:hover {
     background-color: #404BBF;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
